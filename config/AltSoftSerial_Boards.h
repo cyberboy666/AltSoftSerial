@@ -94,15 +94,15 @@
 //
 #elif defined(ARDUINO_AVR_YUN) || defined(ARDUINO_AVR_LEONARDO) || defined(__AVR_ATmega32U4__)
 
-  //#define ALTSS_USE_TIMER1
-  //#define INPUT_CAPTURE_PIN		4  // receive
-  //#define OUTPUT_COMPARE_A_PIN	9 // transmit
-  //#define OUTPUT_COMPARE_B_PIN	10 // unusable PWM
-  //#define OUTPUT_COMPARE_C_PIN	11 // unusable PWM
+  #define ALTSS_USE_TIMER1
+  #define INPUT_CAPTURE_PIN		4  // receive
+  #define OUTPUT_COMPARE_A_PIN	9 // transmit
+  #define OUTPUT_COMPARE_B_PIN	10 // unusable PWM
+  #define OUTPUT_COMPARE_C_PIN	11 // unusable PWM
 
-  #define ALTSS_USE_TIMER3
-  #define INPUT_CAPTURE_PIN		13 // receive
-  #define OUTPUT_COMPARE_A_PIN		5 // transmit
+  // #define ALTSS_USE_TIMER3
+  // #define INPUT_CAPTURE_PIN		13 // receive
+  // #define OUTPUT_COMPARE_A_PIN		5 // transmit
 
 
 // Arduino Mega
